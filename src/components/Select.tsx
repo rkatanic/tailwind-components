@@ -9,11 +9,12 @@ const Select = (): JSX.Element => (
     <select
       id="select"
       name="select"
-      className="text-gray-900 shadow-sm rounded-md border border-gray-300 px-3 py-2 text-sm focus:outline-teal-500"
+      className="text-gray-900 shadow-sm rounded-md border border-gray-300 px-3 pr-9 py-2 text-sm focus:ring-teal-500 focus:border-teal-500 focus:outline-0"
     >
-      <option>Option one</option>
-      <option>Option two</option>
-      <option>Option three</option>
+      <option>Select option one</option>
+      <option>Select option two</option>
+      <option>Select option three</option>
+      <option>Select option four</option>
     </select>
   </div>
 );
