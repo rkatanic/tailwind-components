@@ -10,7 +10,7 @@ const FileUpload = (): JSX.Element => (
       Upload a file
       <span className="font-normal text-gray-500"> or drag and drop</span>
       <p className="font-normal text-gray-500 text-sm mt-1">
-        PNG, JPG, GIF up to 10MB
+        PNG, JPG, PBM, BMP up to 5MB
       </p>
     </label>
 

@@ -14,16 +14,16 @@ const Sidenav = (): JSX.Element => {
           logo
         </div>
         <div className="flex flex-col items-center gap-4 w-full px-4">
-          <div className="hover:cursor-pointer flex items-center justify-center py-3 rounded-md bg-teal-700 w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
+          <div className="hover:cursor-pointer bg-opacity-50 flex items-center justify-center py-3 rounded-md bg-teal-700 w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
             <FiEdit2 size="1.5rem" className="stroke-teal-100" />
           </div>
-          <div className="hover:bg-teal-700 hover:cursor-pointer flex items-center justify-center py-3 rounded-md w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
+          <div className="hover:bg-opacity-50 hover:bg-teal-700 hover:cursor-pointer  flex items-center justify-center py-3 rounded-md w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
             <FiEye size="1.5rem" className="stroke-teal-100" />
           </div>
-          <div className="hover:cursor-pointer flex items-center justify-center py-3 rounded-md w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
+          <div className="hover:bg-opacity-50 hover:bg-teal-700 hover:cursor-pointer flex items-center justify-center py-3 rounded-md w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
             <FiDownload size="1.5rem" className="stroke-teal-100" />
           </div>
-          <div className="hover:cursor-pointer flex items-center justify-center py-3 rounded-md w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
+          <div className="hover:bg-opacity-50 hover:bg-teal-700 hover:cursor-pointer flex items-center justify-center py-3 rounded-md w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-teal-50 before:absolute">
             <FiXCircle size="1.5rem" className="stroke-teal-100" />
           </div>
         </div>

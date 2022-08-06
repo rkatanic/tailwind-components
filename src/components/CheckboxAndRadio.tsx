@@ -4,6 +4,7 @@ const CheckboxAndRadio = (): JSX.Element => {
       <div className="flex flex-col gap-4">
         <div className="flex items-center">
           <input
+            checked
             id="radio-option-one"
             name="radio-options"
             type="radio"

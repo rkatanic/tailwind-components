@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Preview from "./components/Preview";
 import Select from "./components/Select";
 import Sidenav from "./components/Sidenav";
+import SideOverlay from "./components/SideOverlay";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,7 +22,7 @@ const App = () => {
   return (
     <div className={`App py-8 bg-white ${darkMode ? "dark" : ""}`}>
       <div className="flex flex-col gap-8">
-        <Preview component={<Navbar />} title="Dark navbar" />
+        <Preview withoutPadding component={<Navbar />} title="Dark navbar" />
         <Preview alignInCenter component={<Input />} title="Input field" />
         <Preview alignInCenter component={<Button />} title="Buttons" />
         <Preview alignInCenter component={<FileUpload />} title="File upload" />
@@ -33,6 +34,7 @@ const App = () => {
         />
         <Preview
           component={<Sidenav />}
+          withoutPadding
           title="Sidenav with actions and item list"
         />
         <Preview
@@ -46,6 +48,11 @@ const App = () => {
           title="Simple delete confirmation modal"
         />
         <Preview alignInCenter component={<Alert />} title="Alerts" />
+        <Preview
+          withoutPadding
+          component={<SideOverlay />}
+          title="Side overlay"
+        />
       </div>
     </div>
   );
