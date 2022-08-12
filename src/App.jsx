@@ -16,11 +16,19 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   const handleDarkModeToggle = () => {
-    setDarkMode((prevState) => !prevState);
+    // setDarkMode((prevState) => !prevState);
+    if (document.body.classList.contains("dark")) {
+      document.body.classList.remove("dark");
+    } else {
+      document.body.classList.add("dark");
+    }
   };
 
   return (
-    <div className={`App py-8 bg-white ${darkMode ? "dark" : ""}`}>
+    <div
+      className={`App dark:bg-zinc-800 py-8 bg-white ${darkMode ? "dark" : ""}`}
+    >
+      <button onClick={handleDarkModeToggle}>toggle dark mode</button>
       <div className="flex flex-col gap-8">
         <Preview withoutPadding component={<Navbar />} title="Dark navbar" />
         <Preview alignInCenter component={<Input />} title="Input field" />

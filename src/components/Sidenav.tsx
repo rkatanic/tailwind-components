@@ -8,7 +8,7 @@ import {
 
 const Sidenav = (): JSX.Element => {
   return (
-    <div className="flex bg-gray-50">
+    <div className="flex bg-gray-50 dark:bg-zinc-900 dark:bg-opacity-40">
       <div className="w-20 bg-teal-600 flex flex-col items-center gap-12">
         <div className="flex items-center justify-center h-16 bg-teal-700 w-full">
           logo
@@ -29,59 +29,59 @@ const Sidenav = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="shadow-sm border-r bg-white pb-32">
-        <div className="border-b h-16 flex items-center px-8 text-lg font-semibold">
+      <div className="shadow-sm border-r bg-white pb-32 dark:bg-zinc-800 dark:border-zinc-700/50">
+        <div className="border-b h-16 flex items-center px-8 text-lg font-semibold dark:text-zinc-200 dark:border-zinc-700/50">
           Notes
         </div>
         <div className="w-full max-w-sm">
-          <div className="border-b px-8 py-4 bg-gray-50">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between">
+          <div className="border-b px-8 py-4 bg-gray-50 dark:bg-zinc-700/25 dark:border-zinc-700">
+            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note one
               <FiTrash2
                 size="1.125rem"
-                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer"
+                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b px-8 py-4">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between">
+          <div className="border-b px-8 py-4  dark:border-zinc-700/50">
+            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note two
               <FiTrash2
                 size="1.125rem"
-                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer"
+                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b px-8 py-4">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between">
+          <div className="border-b px-8 py-4  dark:border-zinc-700/50">
+            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note three
               <FiTrash2
                 size="1.125rem"
-                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer"
+                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b px-8 py-4">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between">
+          <div className="border-b px-8 py-4  dark:border-zinc-700/50">
+            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note four
               <FiTrash2
                 size="1.125rem"
-                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer"
+                className="stroke-gray-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
