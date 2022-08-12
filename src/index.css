@@ -9,3 +9,25 @@
         font-family: Inter, system-ui, sans-serif;
     }
 }
+
+.App::before {
+    position: fixed;
+    content: "";
+    transform: rotate(45deg);
+    width: 2000px;
+    height: 700px;
+    top: 25rem;
+    left: -10rem;
+    background-image: radial-gradient(hsla(200, 100%, 25%, 0.15) 2%, transparent 70%);
+}
+
+.App::after {
+    position: fixed;
+    content: "";
+    transform: rotate(45deg);
+    width: 1000px;
+    height: 1800px;
+    top: -45rem;
+    right: -10rem;
+    background-image: radial-gradient(hsla(295, 100%, 25%, 0.15) 2%, transparent 70%);
+}

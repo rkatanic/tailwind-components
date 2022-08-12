@@ -26,10 +26,10 @@ const App = () => {
 
   return (
     <div
-      className={`App dark:bg-zinc-800 py-8 bg-white ${darkMode ? "dark" : ""}`}
+      className={`App dark:bg-gray-900 py-8 bg-white ${darkMode ? "dark" : ""}`}
     >
       <button onClick={handleDarkModeToggle}>toggle dark mode</button>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-16">
         <Preview withoutPadding component={<Navbar />} title="Dark navbar" />
         <Preview alignInCenter component={<Input />} title="Input field" />
         <Preview alignInCenter component={<Button />} title="Buttons" />
