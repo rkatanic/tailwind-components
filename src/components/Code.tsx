@@ -1,7 +1,7 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import prettyFormat, { plugins } from "pretty-format";
 import renderer from "react-test-renderer";
+import codestyles from "../codestyles/codestyles";
 
 const { ReactTestComponent } = plugins;
 
@@ -15,7 +15,7 @@ const Code = ({ component }: Props): JSX.Element => {
     printFunctionName: false,
   });
   return (
-    <SyntaxHighlighter showLineNumbers language="jsx" style={atomDark}>
+    <SyntaxHighlighter showLineNumbers language="jsx" style={codestyles as any}>
       {code}
     </SyntaxHighlighter>
   );

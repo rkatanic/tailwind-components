@@ -2,7 +2,8 @@ const Button = (): JSX.Element => (
   <div className="flex flex-column gap-8">
     <button
       type="button"
-      className="shadow-sm font-semibold text-sm border border-cyan-700 bg-cyan-600 px-4 py-2 rounded-md text-white hover:bg-cyan-500 hover:border-cyan-600 dark:shadow-md"
+      className="shadow-sm font-semibold text-sm border border-cyan-700 bg-cyan-500
+       px-4 py-2 rounded-md text-white hover:bg-cyan-500 hover:border-cyan-600 dark:shadow-md"
     >
       Button
     </button>

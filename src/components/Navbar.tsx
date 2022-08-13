@@ -1,8 +1,8 @@
 import { MdOutlineWbSunny } from "react-icons/md";
 
 const Navbar = (): JSX.Element => (
-  <div className="pb-20 dark:bg-gray-800">
-    <div className="bg-gray-800 text-white px-12 py-4 dark:bg-gray-900">
+  <div className="pb-20 dark:bg-gray-900">
+    <div className="bg-gray-800 text-white px-12 py-4 dark:bg-gray-800">
       <div className="max-w-7xl m-auto flex justify-between">
         <div className="flex items-center gap-6">
           <div className="font-semibold text-xl">Logoipsum</div>
