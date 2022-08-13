@@ -11,7 +11,7 @@ const Sidenav = (): JSX.Element => {
     <div className="flex bg-gray-50 dark:bg-gray-900/50 dark:bg-opacity-40">
       <div className="w-20 bg-cyan-600 flex flex-col items-center gap-12">
         <div className="flex items-center justify-center h-16 bg-cyan-700 w-full">
-          logo
+          <div className="w-8 h-8 border-cyan-50 border-8 rounded-full"></div>
         </div>
         <div className="flex flex-col items-center gap-4 w-full px-4">
           <div className="hover:cursor-pointer bg-opacity-50 flex items-center justify-center py-3 rounded-md bg-cyan-700 w-full relative before:rounded-r-md before:-left-7 before:-top-2 before:content-[''] before:h-12 before:w-1.5 before:bg-cyan-50 before:absolute">

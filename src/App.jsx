@@ -26,7 +26,9 @@ const App = () => {
 
   return (
     <div
-      className={`App dark:bg-gray-900 py-8 bg-white ${darkMode ? "dark" : ""}`}
+      className={`App overflow-hidden relative dark:bg-gray-900 py-8 bg-white ${
+        darkMode ? "dark" : ""
+      }`}
     >
       <button onClick={handleDarkModeToggle}>toggle dark mode</button>
       <div className="flex flex-col gap-16">

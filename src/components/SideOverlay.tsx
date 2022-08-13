@@ -2,7 +2,7 @@ import { FiX } from "react-icons/fi";
 
 const SideOverlay = (): JSX.Element => (
   <>
-    <div className="absolute inset-0 bg-gray-300 dark:bg-gray-900"></div>
+    <div className="absolute inset-0 bg-gray-100 dark:bg-gray-900"></div>
 
     <div className="relative float-right w-full max-w-sm  bg-white dark:bg-gray-800">
       <form className="h-full border-l shadow-xl dark:border-gray-700">

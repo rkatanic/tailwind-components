@@ -1,7 +1,7 @@
 import { FiUploadCloud } from "react-icons/fi";
 
 const FileUpload = (): JSX.Element => (
-  <div className="w-full flex flex-col items-center text-center px-4 py-8 rounded-md border-2 border-gray-300 border-dashed hover:bg-gray-50 dark:bg-gray-700/20 dark:border-gray-700 dark:hover:bg-gray-700/30 dark:shadow-md">
+  <div className="w-full flex flex-col items-center text-center px-4 py-8 rounded-md border-2 bg-white border-gray-300 border-dashed hover:bg-gray-50 dark:bg-gray-700/20 dark:border-gray-700 dark:hover:bg-gray-700/30 dark:shadow-md">
     <FiUploadCloud size="2.5rem" className="stroke-1 stroke-gray-400" />
     <label
       htmlFor="file-upload"

@@ -2,7 +2,7 @@ import { FiX, FiAlertTriangle } from "react-icons/fi";
 
 const Modal = (): JSX.Element => (
   <>
-    <div className="absolute inset-0 bg-gray-300 dark:bg-gray-900"></div>
+    <div className="absolute inset-0 bg-gray-100 dark:bg-gray-900"></div>
     <div className="relative bg-white shadow-lg p-6 rounded-md w-full max-w-lg dark:bg-gray-800">
       <div className="flex flex-col justify-center items-center  gap-4 mb-8 sm:flex-row sm:items-start">
         <div className="p-3 bg-rose-100 rounded-full dark:bg-rose-900 dark:bg-opacity-30">
