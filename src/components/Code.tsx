@@ -15,9 +15,15 @@ const Code = ({ component }: Props): JSX.Element => {
     printFunctionName: false,
   });
   return (
-    <SyntaxHighlighter showLineNumbers language="jsx" style={codestyles as any}>
-      {code}
-    </SyntaxHighlighter>
+    <div className="border dark:border-gray-700 rounded-md">
+      <SyntaxHighlighter
+        showLineNumbers
+        language="jsx"
+        style={codestyles as any}
+      >
+        {code}
+      </SyntaxHighlighter>
+    </div>
   );
 };
 

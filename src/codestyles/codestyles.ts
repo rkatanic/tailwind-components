@@ -37,7 +37,7 @@ export default {
     msHyphens: "none",
     hyphens: "none",
     padding: "1em",
-    margin: ".5em 0",
+    margin: "0",
     overflow: "auto",
     borderRadius: "0.3em",
     background: "#1F2937",
@@ -48,16 +48,16 @@ export default {
     borderRadius: ".3em",
   },
   comment: {
-    color: "#7C7C7C",
+    color: "#64728B",
   },
   prolog: {
-    color: "#7C7C7C",
+    color: "#64728B",
   },
   doctype: {
-    color: "#7C7C7C",
+    color: "#64728B",
   },
   cdata: {
-    color: "#7C7C7C",
+    color: "#64728B",
   },
   punctuation: {
     color: "#64748B",

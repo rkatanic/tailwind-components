@@ -7,8 +7,9 @@ const Input = (): JSX.Element => (
       Label
     </label>
     <input
+      type="text"
       name="input"
-      className="shadow-sm w-72 text-sm text-gray-900 px-3 py-2 rounded-md border bg-white border-gray-300  focus:outline-cyan-500 dark:focus:outline-0 dark:focus:border-cyan-500 dark:border-gray-700 dark:text-gray-100 dark:bg-gray-700/40"
+      className="shadow-sm w-72 text-sm text-gray-900 px-3 py-2 rounded-md border bg-white border-gray-300  focus:outline-cyan-500 focus:ring-cyan-500 focus:outline-0 dark:focus:border-cyan-500 dark:border-gray-700 dark:text-gray-100 dark:bg-gray-700/40"
       placeholder="Placeholder"
     />
   </div>

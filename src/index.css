@@ -31,3 +31,18 @@
     right: -10rem;
     background-image: radial-gradient(hsla(295, 100%, 25%, 0.15) 2%, transparent 70%);
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.dark::-webkit-scrollbar-track {
+    background: hsl(221, 39%, 11%);
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: hsl(215, 12%, 40%);
+}

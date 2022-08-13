@@ -34,8 +34,10 @@ const Preview = ({
           >
             <FiEye
               className={`${
-                !showCode ? "stroke-cyan-600 dark:stroke-cyan-500" : ""
-              } stroke-gray-900 dark:stroke-gray-200`}
+                !showCode
+                  ? "stroke-cyan-600 dark:stroke-cyan-500"
+                  : "stroke-gray-900 dark:stroke-gray-400"
+              }`}
             />
           </button>
           <div className="w-px h-full bg-gray-200 dark:bg-gray-700"></div>
@@ -48,8 +50,10 @@ const Preview = ({
           >
             <FiCode
               className={`${
-                showCode ? "stroke-cyan-600 dark:stroke-cyan-500" : ""
-              } stroke-gray-900 dark:stroke-gray-200`}
+                showCode
+                  ? "stroke-cyan-600 dark:stroke-cyan-500"
+                  : "stroke-gray-900 dark:stroke-gray-400"
+              }`}
             />
           </button>
         </div>
