@@ -4,12 +4,13 @@ import {
   FiDownload,
   FiXCircle,
   FiTrash2,
+  FiSave,
 } from "react-icons/fi";
 
 const Sidenav = (): JSX.Element => {
   return (
     <div className="flex bg-gray-50 dark:bg-gray-900/50 dark:bg-opacity-40">
-      <div className="w-20 bg-cyan-600 flex flex-col items-center gap-12">
+      <div className="w-32 bg-cyan-600 flex flex-col items-center gap-12">
         <div className="flex items-center justify-center h-16 bg-cyan-700 w-full">
           <div className="w-8 h-8 border-cyan-50 border-8 rounded-full"></div>
         </div>
@@ -29,9 +30,12 @@ const Sidenav = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="shadow-sm border-r bg-white pb-32 dark:bg-gray-800 dark:border-gray-700">
+      <div className="shadow-sm border-r bg-white pb-32 dark:bg-gray-800 dark:border-gray-700 w-full max-w-sm">
         <div className="border-b h-16 flex items-center px-8 text-lg font-semibold dark:text-gray-200 dark:border-gray-700">
-          Notes
+          Notes{" "}
+          <span className="text-sm text-gray-400 font-normal ml-2">
+            4 files
+          </span>
         </div>
         <div className="w-full max-w-sm">
           <div className="border-b px-8 py-4 bg-gray-50 dark:bg-gray-700/25 dark:border-gray-700">
@@ -84,6 +88,32 @@ const Sidenav = (): JSX.Element => {
             <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-500 dark:text-gray-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full">
+        <div className="bg-white w-full border-b h-16 flex items-center justify-center px-8 text-lg font-semibold dark:text-gray-200 dark:border-gray-700 dark:bg-gray-800">
+          <div className="flex items-center justify-between  w-full max-w-5xl">
+            <div>Note one</div>
+            <FiSave className="dark:stroke-gray-400 cursor-pointer hover:stroke-cyan-500 dark:hover:stroke-cyan-500" />
+          </div>
+        </div>
+
+        <div className="h-full w-full max-w-5xl px-8 pt-8">
+          <div className="shadow-lg bg-white h-full p-8 rounded-md dark:bg-gray-800 dark:border-gray-700">
+            <h2 className="font-bold text-2xl mb-2 dark:text-gray-200">
+              <span className="text-gray-300 dark:text-gray-600">##</span> Note
+              note
+            </h2>
+            <hr className="dark:border-gray-700" />
+            <p className="mt-4 dark:text-gray-400">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Molestias quas, neque dolore commodi perspiciatis magni. Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+              quas, neque dolore commodi perspiciatis magni. Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Molestias quas, neque
+              dolore commodi perspiciatis magni.
             </p>
           </div>
         </div>

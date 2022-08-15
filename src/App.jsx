@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import CheckboxAndRadio from "./components/CheckboxAndRadio";
 import Divider from "./components/Divider";
 import FileUpload from "./components/FileUpload";
+import Header from "./components/Header";
 import Input from "./components/Input";
 import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
@@ -13,58 +14,72 @@ import Sidenav from "./components/Sidenav";
 import SideOverlay from "./components/SideOverlay";
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  const handleDarkModeToggle = () => {
-    // setDarkMode((prevState) => !prevState);
-    if (document.body.classList.contains("dark")) {
-      document.body.classList.remove("dark");
-    } else {
-      document.body.classList.add("dark");
-    }
-  };
-
   return (
-    <div
-      className={`App overflow-hidden relative dark:bg-gray-900 py-8 bg-white ${
-        darkMode ? "dark" : ""
-      }`}
-    >
-      <button onClick={handleDarkModeToggle}>toggle dark mode</button>
-      <div className="flex flex-col gap-16">
-        <Preview withoutPadding component={<Navbar />} title="Dark navbar" />
-        <Preview alignInCenter component={<Input />} title="Input field" />
-        <Preview alignInCenter component={<Button />} title="Buttons" />
-        <Preview alignInCenter component={<FileUpload />} title="File upload" />
-        <Preview alignInCenter component={<Select />} title="Select" />
-        <Preview
-          alignInCenter
-          component={<CheckboxAndRadio />}
-          title="Checkbox & radio"
-        />
-        <Preview
-          component={<Sidenav />}
-          withoutPadding
-          title="Sidenav with actions and item list"
-        />
-        <Preview
-          alignInCenter
-          component={<Divider />}
-          title="Divider with text"
-        />
-        <Preview
-          alignInCenter
-          component={<Modal />}
-          title="Simple delete confirmation modal"
-        />
-        <Preview alignInCenter component={<Alert />} title="Alerts" />
-        <Preview
-          withoutPadding
-          component={<SideOverlay />}
-          title="Side overlay"
-        />
+    <>
+      <div
+        className={`App overflow-hidden relative dark:bg-gray-900 py-8 bg-white`}
+      >
+        <div className="flex flex-col gap-16">
+          <Header />
+          <Preview withoutPadding component={<Navbar />} title="Dark navbar" />
+          <Preview alignInCenter component={<Input />} title="Input field" />
+          <Preview alignInCenter component={<Button />} title="Buttons" />
+          <Preview
+            alignInCenter
+            component={<FileUpload />}
+            title="File upload"
+          />
+          <Preview alignInCenter component={<Select />} title="Select" />
+          <Preview
+            alignInCenter
+            component={<CheckboxAndRadio />}
+            title="Checkbox & radio"
+          />
+          <Preview
+            component={<Sidenav />}
+            withoutPadding
+            title="Sidenav with actions and item list"
+          />
+          <Preview
+            alignInCenter
+            component={<Divider />}
+            title="Divider with text"
+          />
+          <Preview
+            alignInCenter
+            component={<Modal />}
+            title="Simple delete confirmation modal"
+          />
+          <Preview alignInCenter component={<Alert />} title="Alerts" />
+          <Preview
+            withoutPadding
+            component={<SideOverlay />}
+            title="Side overlay"
+          />
+        </div>
       </div>
-    </div>
+      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom_left,white,transparent,transparent)]">
+        <svg className="h-full w-full absolute inset-0">
+          <defs>
+            <pattern
+              id="grid"
+              width="40"
+              height="40"
+              patternUnits="userSpaceOnUse"
+            >
+              <rect width="40" height="40" fill="url(#tenthGrid)" />
+              <path
+                d="M 100 0 L 0 0 0 100"
+                fill="none"
+                className="stroke-gray-200 dark:stroke-gray-800"
+                stroke-width="1"
+              />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid)" />
+        </svg>
+      </div>
+    </>
   );
 };
 
