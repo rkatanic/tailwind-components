@@ -21,38 +21,38 @@ const Preview = ({
   return (
     <div className="h-full w-full m-auto max-w-7xl z-10">
       <div className="flex gap-4 justify-between  mb-4">
-        <h1 className="text-md font-medium text-gray-900 dark:text-gray-300">
+        <h1 className="text-md font-medium text-zinc-900 dark:text-zinc-300">
           {title}
         </h1>
-        <div className=" flex border rounded-md bg-white shadow-sm overflow-hidden dark:bg-gray-900 dark:border-gray-700">
+        <div className=" flex border rounded-md bg-white shadow-sm overflow-hidden dark:bg-zinc-900 dark:border-zinc-700">
           <button
             className={`${
-              !showCode ? "bg-gray-50 dark:bg-gray-800" : ""
-            } text-sm py-3 px-4 flex items-center justify-center hover:bg-gray-50 dark:hover:bg-gray-800`}
+              !showCode ? "bg-zinc-50 dark:bg-zinc-800" : ""
+            } text-sm py-3 px-4 flex items-center justify-center hover:bg-zinc-50 dark:hover:bg-zinc-800`}
             type="button"
             onClick={() => setShowCode(false)}
           >
             <FiEye
               className={`${
                 !showCode
-                  ? "stroke-cyan-600 dark:stroke-cyan-500"
-                  : "stroke-gray-900 dark:stroke-gray-400"
+                  ? "stroke-emerald-600 dark:stroke-emerald-400"
+                  : "stroke-zinc-900 dark:stroke-zinc-400"
               }`}
             />
           </button>
-          <div className="w-px h-full bg-gray-200 dark:bg-gray-700"></div>
+          <div className="w-px h-full bg-zinc-200 dark:bg-zinc-700"></div>
           <button
             className={`${
-              showCode ? "bg-gray-50 dark:bg-gray-800" : ""
-            } text-sm py-3 px-4 flex items-center justify-center hover:bg-gray-50 dark:hover:bg-gray-800`}
+              showCode ? "bg-zinc-50 dark:bg-zinc-800" : ""
+            } text-sm py-3 px-4 flex items-center justify-center hover:bg-zinc-50 dark:hover:bg-zinc-800`}
             type="button"
             onClick={() => setShowCode(true)}
           >
             <FiCode
               className={`${
                 showCode
-                  ? "stroke-cyan-600 dark:stroke-cyan-500"
-                  : "stroke-gray-900 dark:stroke-gray-400"
+                  ? "stroke-emerald-600 dark:stroke-emerald-400"
+                  : "stroke-zinc-900 dark:stroke-zinc-400"
               }`}
             />
           </button>
@@ -63,7 +63,7 @@ const Preview = ({
         <Code component={component} />
       ) : (
         <div
-          className={`relative rounded-lg overflow-hidden border border-gray-200 bg-gray-50 dark:bg-gray-900  dark:border-gray-700 ${
+          className={`relative rounded-lg overflow-hidden border border-zinc-200 bg-zinc-50 dark:bg-zinc-900  dark:border-zinc-700 ${
             withoutPadding ? "" : "p-10"
           }  ${alignInCenter ? "flex justify-center items-center" : ""}`}
         >

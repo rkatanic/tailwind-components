@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <div
-        className={`App overflow-hidden relative dark:bg-gray-900 py-8 bg-white`}
+        className={`App overflow-hidden relative dark:bg-zinc-900 py-8 bg-white`}
       >
         <div className="flex flex-col gap-16">
           <Header />
@@ -58,7 +58,7 @@ const App = () => {
           />
         </div>
       </div>
-      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom_left,white,transparent,transparent)]">
+      {/* <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom_right,white,transparent,white)]">
         <svg className="h-full w-full absolute inset-0">
           <defs>
             <pattern
@@ -71,14 +71,14 @@ const App = () => {
               <path
                 d="M 100 0 L 0 0 0 100"
                 fill="none"
-                className="stroke-gray-200 dark:stroke-gray-800"
+                className="stroke-zinc-200 dark:stroke-zinc-800"
                 stroke-width="1"
               />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
         </svg>
-      </div>
+      </div> */}
     </>
   );
 };

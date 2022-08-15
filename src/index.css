@@ -10,7 +10,7 @@
     }
 }
 
-.App::before {
+/* .App::before {
     position: absolute;
     content: "";
     transform: rotate(45deg);
@@ -30,7 +30,7 @@
     top: -45rem;
     right: -10rem;
     background-image: radial-gradient(hsla(295, 100%, 25%, 0.15) 2%, transparent 70%);
-}
+} */
 
 ::-webkit-scrollbar {
     width: 12px;

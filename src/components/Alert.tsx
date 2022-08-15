@@ -24,18 +24,15 @@ const Alert = (): JSX.Element => (
       </div>
     </div>
 
-    <div className="flex gap-4 shadow-sm rounded-md border text-cyan-600 border-cyan-400 bg-cyan-100 px-4 w-full max-w-md dark:text-cyan-300 dark:border-cyan-600 dark:bg-cyan-900/50">
-      <div className="flex items-center py-2 pr-4 border-r border-cyan-400 dark:border-cyan-600">
-        <FiInfo
-          size="1.5rem"
-          className="stroke-cyan-500 dark:stroke-cyan-300"
-        />
+    <div className="flex gap-4 shadow-sm rounded-md border text-sky-600 border-sky-400 bg-sky-100 px-4 w-full max-w-md dark:text-sky-300 dark:border-sky-600 dark:bg-sky-900/50">
+      <div className="flex items-center py-2 pr-4 border-r border-sky-400 dark:border-sky-600">
+        <FiInfo size="1.5rem" className="stroke-sky-500 dark:stroke-sky-300" />
       </div>
       <div className="py-2  w-full flex items-start justify-between gap-2 dark:font-extralight">
         Info alert message text.
         <FiX
           size="1.5rem"
-          className="cursor-pointer stroke-cyan-500 dark:stroke-cyan-300"
+          className="cursor-pointer stroke-sky-500 dark:stroke-sky-300"
         />
       </div>
     </div>
