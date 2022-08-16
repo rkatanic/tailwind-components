@@ -61,7 +61,7 @@ const Preview = ({
         <Code component={component} />
       ) : (
         <div
-          className={`relative rounded-lg overflow-hidden border border-zinc-200 bg-white dark:bg-zinc-900  dark:border-zinc-800 ${
+          className={`relative rounded-lg overflow-hidden border border-zinc-200 bg-zinc-50 dark:bg-zinc-900  dark:border-zinc-800 ${
             withoutPadding ? "" : "p-10"
           }  ${alignInCenter ? "flex justify-center items-center" : ""}`}
         >

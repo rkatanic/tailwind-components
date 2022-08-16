@@ -10,13 +10,13 @@ const Table = (): JSX.Element => (
         <th className="border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
           Amount
         </th>
-        <th className="border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
+        <th className="hidden border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 md:table-cell">
           Type
         </th>
-        <th className="border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
+        <th className="hidden border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 sm:table-cell">
           Category
         </th>
-        <th className="border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
+        <th className="hidden border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 lg:table-cell">
           Date created
         </th>
         <th className="text-right border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
@@ -33,13 +33,15 @@ const Table = (): JSX.Element => (
               BAM
             </span>
           </td>
-          <td className="p-4 px-8 font-semibold">
-            <span className="bg-emerald-50 text-emerald-500 font-normal py-1 px-2.5 rounded-full dark:bg-emerald-900/30 dark:text-emerald-500">
+          <td className="hidden p-4 px-8 font-semibold md:table-cell">
+            <span className="bg-emerald-50 text-emerald-500 font-normal py-1 px-2.5 rounded-full dark:bg-emerald-900/30 dark:text-emerald-500  ">
               Income
             </span>
           </td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">Income</td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
+            Income
+          </td>
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             1 August, 2022
           </td>
           <td className="p-4 px-8 text-zinc-800 dark:text-zinc-400 flex justify-end gap-4">
@@ -64,13 +66,15 @@ const Table = (): JSX.Element => (
               BAM
             </span>
           </td>
-          <td className="p-4 px-8 font-semibold">
+          <td className="hidden p-4 px-8 font-semibold md:table-cell">
             <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
               Expense
             </span>
           </td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">Other</td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
+            Other
+          </td>
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             31 July, 2022
           </td>
           <td className="p-4 px-8 text-zinc-800 dark:text-zinc-400 flex justify-end gap-4">
@@ -95,13 +99,15 @@ const Table = (): JSX.Element => (
               BAM
             </span>
           </td>
-          <td className="p-4 px-8 font-semibold">
+          <td className="hidden p-4 px-8 font-semibold md:table-cell">
             <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
               Expense
             </span>
           </td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">Housing</td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
+            Housing
+          </td>
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             30 July, 2022
           </td>
           <td className="p-4 px-8 text-zinc-800 dark:text-zinc-400 flex justify-end gap-4">
@@ -126,15 +132,15 @@ const Table = (): JSX.Element => (
               BAM
             </span>
           </td>
-          <td className="p-4 px-8 font-semibold">
+          <td className="hidden p-4 px-8 font-semibold md:table-cell">
             <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
               Expense
             </span>
           </td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
             Food & Drinks
           </td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             25 July, 2022
           </td>
           <td className="p-4 px-8 text-zinc-800 dark:text-zinc-400 flex justify-end gap-4">
@@ -159,13 +165,15 @@ const Table = (): JSX.Element => (
               BAM
             </span>
           </td>
-          <td className="p-4 px-8 font-semibold">
+          <td className="hidden p-4 px-8 font-semibold md:table-cell">
             <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
               Expense
             </span>
           </td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">Other</td>
-          <td className="p-4 px-8 text-zinc-500 dark:text-zinc-400">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
+            Other
+          </td>
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             14 July, 2022
           </td>
           <td className="p-4 px-8 text-zinc-800 dark:text-zinc-400 flex justify-end gap-4">
@@ -184,7 +192,7 @@ const Table = (): JSX.Element => (
 
     <div className="mt-4 flex justify-between">
       <div className="flex gap-4 items-center">
-        <span className="text-sm text-zinc-500">Rows per page</span>
+        <span className="hidden text-sm text-zinc-500">Rows per page</span>
         <select
           id="select"
           name="select"

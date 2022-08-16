@@ -38,7 +38,7 @@
 }
 
 .dark::-webkit-scrollbar-track {
-    background: hsl(180, 8%, 10%);
+    background: hsl(180, 4%, 10%);
 }
 
 ::-webkit-scrollbar-thumb {
