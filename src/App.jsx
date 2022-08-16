@@ -12,6 +12,7 @@ import Preview from "./components/Preview";
 import Select from "./components/Select";
 import Sidenav from "./components/Sidenav";
 import SideOverlay from "./components/SideOverlay";
+import Table from "./components/Table";
 
 const App = () => {
   return (
@@ -56,9 +57,10 @@ const App = () => {
             component={<SideOverlay />}
             title="Side overlay"
           />
+          <Preview component={<Table />} title="Table" />
         </div>
       </div>
-      {/* <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom_right,white,transparent,white)]">
+      <div className="fixed inset-0 [mask-image:linear-gradient(to_bottom_right,white,transparent,white)]">
         <svg className="h-full w-full absolute inset-0">
           <defs>
             <pattern
@@ -78,7 +80,7 @@ const App = () => {
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
         </svg>
-      </div> */}
+      </div>
     </>
   );
 };

@@ -10,27 +10,27 @@
     }
 }
 
-/* .App::before {
-    position: absolute;
+.App::before {
+    position: fixed;
     content: "";
     transform: rotate(45deg);
     width: 2000px;
     height: 700px;
     top: 25rem;
     left: -10rem;
-    background-image: radial-gradient(hsla(200, 100%, 25%, 0.15) 2%, transparent 70%);
+    background-image: radial-gradient(hsla(180, 100%, 25%, 0.15) 2%, transparent 70%);
 }
 
 .App::after {
-    position: absolute;
+    position: fixed;
     content: "";
     transform: rotate(45deg);
     width: 700px;
     height: 1800px;
     top: -45rem;
     right: -10rem;
-    background-image: radial-gradient(hsla(295, 100%, 25%, 0.15) 2%, transparent 70%);
-} */
+    background-image: radial-gradient(hsla(150, 100%, 25%, 0.15) 2%, transparent 70%);
+}
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -38,11 +38,10 @@
 }
 
 .dark::-webkit-scrollbar-track {
-    background: hsl(221, 39%, 11%);
-
+    background: hsl(180, 8%, 10%);
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 1rem;
-    background: hsl(215, 12%, 40%);
+    background: hsl(180, 4%, 40%);
 }
