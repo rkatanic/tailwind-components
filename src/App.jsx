@@ -12,6 +12,7 @@ import Preview from "./components/Preview";
 import Select from "./components/Select";
 import Sidenav from "./components/Sidenav";
 import SideOverlay from "./components/SideOverlay";
+import Stats from "./components/Stats";
 import Table from "./components/Table";
 
 const App = () => {
@@ -58,6 +59,7 @@ const App = () => {
             title="Side overlay"
           />
           <Preview component={<Table />} title="Table" />
+          <Preview component={<Stats />} title="Stats overview cards" />
         </div>
       </div>
       <div className="fixed inset-0 [mask-image:linear-gradient(to_bottom_right,white,transparent,white)]">

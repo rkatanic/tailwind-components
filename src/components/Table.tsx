@@ -4,22 +4,22 @@ const Table = (): JSX.Element => (
   <div>
     <table className="w-full overflow-hidden rounded-md shadow-sm">
       <tbody className="text-left text-sm border dark:border-zinc-800">
-        <th className="border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
+        <th className="border-b p-4 px-8 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
           Name
         </th>
-        <th className="border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
+        <th className="border-b p-4 px-8 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
           Amount
         </th>
-        <th className="hidden border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 md:table-cell">
+        <th className="hidden border-b p-4 px-8 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 md:table-cell">
           Type
         </th>
-        <th className="hidden border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 sm:table-cell">
+        <th className="hidden border-b p-4 px-8 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 sm:table-cell">
           Category
         </th>
-        <th className="hidden border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 lg:table-cell">
+        <th className="hidden border-b p-4 px-8 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800 lg:table-cell">
           Date created
         </th>
-        <th className="text-right border-b p-4 px-8 bg-gray-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
+        <th className="text-right border-b p-4 px-8 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-300 font-semibold dark:border-zinc-800">
           Actions
         </th>
 
@@ -192,7 +192,9 @@ const Table = (): JSX.Element => (
 
     <div className="mt-4 flex justify-between">
       <div className="flex gap-4 items-center">
-        <span className="hidden text-sm text-zinc-500">Rows per page</span>
+        <span className="hidden text-sm text-zinc-500 sm:inline">
+          Rows per page
+        </span>
         <select
           id="select"
           name="select"
