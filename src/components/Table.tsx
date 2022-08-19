@@ -27,7 +27,7 @@ const Table = (): JSX.Element => (
           <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             Salary
           </td>
-          <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
+          <td className="whitespace-nowrap p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             1.000{" "}
             <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
               BAM
@@ -38,7 +38,8 @@ const Table = (): JSX.Element => (
               Income
             </span>
           </td>
-          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+            <div className="w-2.5 h-2.5 rounded-full bg-emerald-500"></div>{" "}
             Income
           </td>
           <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
@@ -60,7 +61,7 @@ const Table = (): JSX.Element => (
           <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             Phone bill
           </td>
-          <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
+          <td className="whitespace-nowrap p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             99{" "}
             <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
               BAM
@@ -71,8 +72,9 @@ const Table = (): JSX.Element => (
               Expense
             </span>
           </td>
-          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
-            Other
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+            <div className="w-2.5 h-2.5 rounded-full bg-rose-500"></div>{" "}
+            Telephone
           </td>
           <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             31 July, 2022
@@ -93,7 +95,7 @@ const Table = (): JSX.Element => (
           <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             Electricity
           </td>
-          <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
+          <td className="whitespace-nowrap p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             175.24{" "}
             <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
               BAM
@@ -104,7 +106,8 @@ const Table = (): JSX.Element => (
               Expense
             </span>
           </td>
-          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+            <div className="w-2.5 h-2.5 rounded-full bg-amber-500"></div>{" "}
             Housing
           </td>
           <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
@@ -126,7 +129,7 @@ const Table = (): JSX.Element => (
           <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             Groceries
           </td>
-          <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
+          <td className="whitespace-nowrap p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             392.37{" "}
             <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
               BAM
@@ -137,8 +140,9 @@ const Table = (): JSX.Element => (
               Expense
             </span>
           </td>
-          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
-            Food & Drinks
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+            <div className="w-2.5 h-2.5 rounded-full bg-sky-400"></div> Food &
+            Drinks
           </td>
           <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             25 July, 2022
@@ -159,7 +163,7 @@ const Table = (): JSX.Element => (
           <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             Gas
           </td>
-          <td className="p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
+          <td className="whitespace-nowrap p-4 px-8 font-semibold text-zinc-800 dark:text-zinc-400">
             200{" "}
             <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
               BAM
@@ -170,8 +174,8 @@ const Table = (): JSX.Element => (
               Expense
             </span>
           </td>
-          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:table-cell">
-            Other
+          <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+            <div className="w-2.5 h-2.5 rounded-full bg-zinc-400"></div> Other
           </td>
           <td className="hidden p-4 px-8 text-zinc-500 dark:text-zinc-400 lg:table-cell">
             14 July, 2022

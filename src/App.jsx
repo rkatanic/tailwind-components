@@ -10,9 +10,11 @@ import Navbar from "./components/Navbar";
 import Preview from "./components/Preview";
 import Select from "./components/Select";
 import Sidenav from "./components/Sidenav";
+import SidenavV2 from "./components/SidenavV2";
 import SideOverlay from "./components/SideOverlay";
 import Stats from "./components/Stats";
 import Table from "./components/Table";
+import Toggle from "./components/Toggle";
 
 const App = () => (
   <>
@@ -54,6 +56,8 @@ const App = () => (
         />
         <Preview component={<Table />} title="Table" />
         <Preview component={<Stats />} title="Stats overview cards" />
+        <Preview component={<Toggle />} alignInCenter title="Toggle switch" />
+        <Preview component={<SidenavV2 />} withoutPadding title="Sidenav V2" />
       </div>
     </div>
     <div className="fixed inset-0 [mask-image:linear-gradient(to_bottom_right,white,transparent,white)]">
