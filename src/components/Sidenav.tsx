@@ -87,64 +87,64 @@ const Sidenav = (): JSX.Element => {
           showFiles ? "left-0 sm:ml-20" : ""
         } z-10 h-full transition-[left] duration-300 absolute -left-full lg:relative lg:left-0 lg:ml-0 shadow-sm border-r bg-white dark:bg-zinc-800 dark:border-zinc-700 w-full max-w-sm  pb-32`}
       >
-        <div className="border-b h-16 flex items-center justify-between px-8 text-lg font-semibold dark:text-zinc-200 dark:border-zinc-700">
+        <div className="border-b h-16 flex items-center justify-between px-4 text-lg font-semibold dark:text-zinc-200 dark:border-zinc-700">
           <div>
             Notes{" "}
-            <span className="text-sm text-zinc-400 font-normal ml-2">
+            <span className="text-sm text-zinc-400 font-normal ml-1">
               4 files
             </span>
           </div>
           <FiX onClick={handleShowFilesToggle} className="lg:hidden" />
         </div>
         <div className="w-full max-w-sm">
-          <div className="border-b px-8 py-4 bg-zinc-50 dark:bg-zinc-700/25 dark:border-zinc-700">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 bg-zinc-50 dark:bg-zinc-700/25 dark:border-zinc-700">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note one
               <FiTrash2
                 size="1.125rem"
                 className="stroke-zinc-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-800"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-500 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b px-8 py-4  dark:border-zinc-700">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 dark:border-zinc-700">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note two
               <FiTrash2
                 size="1.125rem"
                 className="stroke-zinc-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-800"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-500 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b px-8 py-4  dark:border-zinc-700">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 dark:border-zinc-700">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note three
               <FiTrash2
                 size="1.125rem"
                 className="stroke-zinc-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-800"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-500 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b px-8 py-4  dark:border-zinc-700">
-            <h3 className="mb-2 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 dark:border-zinc-700">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
               Note four
               <FiTrash2
                 size="1.125rem"
                 className="stroke-zinc-300 hover:stroke-rose-500 hover:cursor-pointer dark:stroke-zinc-500 dark:hover:stroke-rose-800"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-500 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>

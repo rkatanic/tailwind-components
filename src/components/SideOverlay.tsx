@@ -23,7 +23,7 @@ const SideOverlay = (): JSX.Element => (
               required
               type="text"
               name="name"
-              className="focus:outline-0 focus:ring-emerald-500 shadow-sm w-full text-sm text-zinc-900 px-3 py-2 rounded-md border border-zinc-300  focus:outline-emerald-500 dark:text-zinc-100 dark:bg-zinc-700/30 dark:border-zinc-700"
+              className="focus:outline-0 focus:ring-emerald-500 shadow-sm w-full text-sm text-zinc-900 px-3 py-1.5 rounded-md border border-zinc-300  focus:outline-emerald-500 dark:text-zinc-100 dark:bg-zinc-900/30 dark:border-zinc-700"
             />
           </div>
 
@@ -38,7 +38,7 @@ const SideOverlay = (): JSX.Element => (
               required
               type="number"
               name="value"
-              className="focus:outline-0 focus:ring-emerald-500 shadow-sm w-full text-sm text-zinc-900 px-3 py-2 rounded-md border border-zinc-300  focus:outline-emerald-500 dark:text-zinc-100 dark:bg-zinc-700/30 dark:border-zinc-700"
+              className="focus:outline-0 focus:ring-emerald-500 shadow-sm w-full text-sm text-zinc-900 px-3 py-1.5 rounded-md border border-zinc-300  focus:outline-emerald-500 dark:text-zinc-100 dark:bg-zinc-900/30 dark:border-zinc-700"
             />
           </div>
 
@@ -54,7 +54,7 @@ const SideOverlay = (): JSX.Element => (
               required
               type="date"
               name="dateCreated"
-              className="focus:outline-0 focus:ring-emerald-500 shadow-sm w-full text-sm text-zinc-900 px-3 py-2 rounded-md border border-zinc-300  focus:outline-emerald-500 dark:text-zinc-100 dark:bg-zinc-700/30 dark:border-zinc-700"
+              className="focus:outline-0 focus:ring-emerald-500 shadow-sm w-full text-sm text-zinc-900 px-3 py-1.5 rounded-md border border-zinc-300  focus:outline-emerald-500 dark:text-zinc-100 dark:bg-zinc-900/30 dark:border-zinc-700"
             />
           </div>
 
@@ -68,7 +68,7 @@ const SideOverlay = (): JSX.Element => (
             <select
               id="select"
               name="category"
-              className="w-full text-zinc-900 shadow-sm rounded-md border border-zinc-300 px-3 pr-9 py-2 text-sm focus:ring-emerald-500  focus:outline-0 dark:text-zinc-100 dark:bg-zinc-700/30 dark:border-zinc-700"
+              className="w-full text-zinc-900 shadow-sm rounded-md border border-zinc-300 px-3 pr-9 py-1.5 text-sm focus:ring-emerald-500  focus:outline-0 dark:text-zinc-100 dark:bg-zinc-900/30 dark:border-zinc-700"
             >
               <option>Other</option>
               <option>Salary</option>
@@ -120,14 +120,14 @@ const SideOverlay = (): JSX.Element => (
         <div className="border-t flex justify-end gap-4  px-6 py-4 dark:border-zinc-700">
           <button
             type="button"
-            className="shadow-sm font-semibold text-sm border border-zinc-300 px-4 py-2 rounded-md text-zinc-900 hover:bg-zinc-50 dark:shadow-md dark:text-zinc-100 dark:hover:bg-zinc-700 dark:border-zinc-600"
+            className="shadow-sm font-semibold text-sm border border-zinc-300 bg-zinc-50 px-4 py-1.5 rounded-md text-zinc-900 hover:bg-zinc-100 dark:shadow-md dark:bg-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-600 dark:border-zinc-600 dark:hover:border-zinc-500"
           >
             Cancel
           </button>
           <button
             type="submit"
             className="shadow-sm font-semibold text-sm border border-emerald-700 bg-gradient-to-b from-emerald-600 to-teal-600
-       px-4 py-2 rounded-md text-white hover:border-emerald-800 hover:from-emerald-700 hover:to-teal-700 dark:shadow-md"
+       px-4 py-1.5 rounded-md text-white hover:border-emerald-800 hover:from-emerald-700 hover:to-teal-700 dark:shadow-md"
           >
             Create
           </button>

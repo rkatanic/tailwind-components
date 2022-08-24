@@ -15,6 +15,7 @@ import SideOverlay from "./components/SideOverlay";
 import Stats from "./components/Stats";
 import Table from "./components/Table";
 import Toggle from "./components/Toggle";
+import Badges from "./components/Badges";
 
 const App = () => (
   <>
@@ -58,6 +59,7 @@ const App = () => (
         <Preview component={<Stats />} title="Stats overview cards" />
         <Preview component={<Toggle />} alignInCenter title="Toggle switch" />
         <Preview component={<SidenavV2 />} withoutPadding title="Sidenav V2" />
+        <Preview component={<Badges />} alignInCenter title="Badges" />
       </div>
     </div>
     <div className="fixed inset-0 [mask-image:linear-gradient(to_bottom_right,white,transparent,white)]">

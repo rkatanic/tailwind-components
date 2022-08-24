@@ -17,8 +17,8 @@ const Stats = (): JSX.Element => (
           </h1>
         </div>
       </div>
-      <div className="bg-zinc-50 p-4 text-zinc-400 dark:bg-zinc-800 dark:text-zinc-500">
-        <span className="text-bold">1 </span>
+      <div className="bg-zinc-50 p-4 font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+        <span>1 </span>
         <span className="text-sm">Transaction</span>
       </div>
     </div>
@@ -38,8 +38,8 @@ const Stats = (): JSX.Element => (
           </h1>
         </div>
       </div>
-      <div className="bg-zinc-50 p-4 text-zinc-400 dark:bg-zinc-800 dark:text-zinc-500">
-        <span className="text-bold">4 </span>
+      <div className="bg-zinc-50 p-4 font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+        <span>4 </span>
         <span className="text-sm">Transactions</span>
       </div>
     </div>
@@ -61,8 +61,8 @@ const Stats = (): JSX.Element => (
           </h1>
         </div>
       </div>
-      <div className="bg-zinc-50 p-4 text-zinc-400 dark:bg-zinc-800 dark:text-zinc-500">
-        <span className="text-bold">30% </span>
+      <div className="bg-zinc-50 p-4 font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+        <span>30% </span>
         <span className="text-sm">Remaining</span>
       </div>
     </div>

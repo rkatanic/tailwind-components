@@ -34,7 +34,7 @@ const Table = (): JSX.Element => (
             </span>
           </td>
           <td className="hidden p-4 px-8 font-semibold md:table-cell">
-            <span className="bg-emerald-50 text-emerald-500 font-normal py-1 px-2.5 rounded-full dark:bg-emerald-900/30 dark:text-emerald-500  ">
+            <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-emerald-400 bg-emerald-50 text-emerald-500 dark:border-emerald-600 dark:bg-emerald-500/10 dark:text-emerald-400">
               Income
             </span>
           </td>
@@ -68,7 +68,7 @@ const Table = (): JSX.Element => (
             </span>
           </td>
           <td className="hidden p-4 px-8 font-semibold md:table-cell">
-            <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
+            <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
               Expense
             </span>
           </td>
@@ -102,7 +102,7 @@ const Table = (): JSX.Element => (
             </span>
           </td>
           <td className="hidden p-4 px-8 font-semibold md:table-cell">
-            <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
+            <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
               Expense
             </span>
           </td>
@@ -136,7 +136,7 @@ const Table = (): JSX.Element => (
             </span>
           </td>
           <td className="hidden p-4 px-8 font-semibold md:table-cell">
-            <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
+            <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
               Expense
             </span>
           </td>
@@ -170,7 +170,7 @@ const Table = (): JSX.Element => (
             </span>
           </td>
           <td className="hidden p-4 px-8 font-semibold md:table-cell">
-            <span className="bg-zinc-100 text-zinc-600 font-normal py-1 px-2.5 rounded-full dark:bg-zinc-800/50 dark:text-zinc-400">
+            <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
               Expense
             </span>
           </td>
