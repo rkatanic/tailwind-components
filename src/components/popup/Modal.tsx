@@ -3,10 +3,10 @@ import { FiX, FiAlertTriangle } from "react-icons/fi";
 const Modal = (): JSX.Element => (
   <>
     <div className="absolute inset-0 bg-zinc-100 dark:bg-zinc-900"></div>
-    <div className="relative bg-white shadow-lg p-4 rounded-md w-full max-w-lg dark:bg-zinc-800">
+    <div className="relative bg-white shadow-lg p-4 rounded-md w-full max-w-lg dark:bg-zinc-700">
       <div className="flex flex-col justify-center items-center  gap-4 mb-8 sm:flex-row sm:items-start">
-        <div className="p-3 bg-rose-100 rounded-full dark:bg-rose-900 dark:bg-opacity-30">
-          <FiAlertTriangle size="1.5rem" className="stroke-rose-500" />
+        <div className="p-3 bg-red-100 rounded-full dark:bg-red-900 dark:bg-opacity-30">
+          <FiAlertTriangle size="1.5rem" className="stroke-red-500" />
         </div>
         <div className="flex-1 text-center sm:text-left">
           <h5 className="flex items-start justify-center font-semibold sm:justify-between dark:text-zinc-100">
@@ -25,13 +25,13 @@ const Modal = (): JSX.Element => (
       <div className="flex flex-col gap-4 justify-end sm:flex-row">
         <button
           type="button"
-          className="shadow-sm font-semibold text-sm border border-zinc-300 bg-zinc-50 px-4 py-1.5 rounded-md text-zinc-900 hover:bg-zinc-100 dark:shadow-md dark:bg-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-600 dark:border-zinc-600 dark:hover:border-zinc-500"
+          className="shadow-sm font-semibold text-sm border py-1.5 px-4 rounded-md dark:shadow-md border-zinc-300 bg-zinc-50 hover:bg-zinc-100 text-zinc-900 dark:bg-zinc-700 dark:text-zinc-300 dark:border-zinc-500 dark:hover:bg-zinc-600 dark:hover:border-zinc-500 dark:hover:text-zinc-100"
         >
           Cancel
         </button>
         <button
           type="button"
-          className="order-1 shadow-sm font-semibold text-sm border border-rose-700 bg-rose-600 px-4 py-1.5 rounded-md text-white hover:bg-rose-700 hover:border-rose-800 dark:shadow-md dark:bg-rose-800 dark:hover:bg-rose-900"
+          className="order-1 shadow-sm font-semibold text-sm border py-1.5 px-4 rounded-md dark:shadow-md bg-red-600 border-red-700 text-white hover:bg-red-500 hover:border-red-600 dark:bg-red-600 dark:hover:bg-red-500 dark:hover:border-red-400 dark:border-red-500"
         >
           Delete
         </button>

@@ -10,12 +10,14 @@
     }
 }
 
+
+
 html,
 body {
-    height: 100%;
+    height: 100vh;
 }
 
-.App::before {
+/* .App::before {
     position: fixed;
     content: "";
     transform: rotate(45deg);
@@ -35,7 +37,7 @@ body {
     top: -45rem;
     right: -10rem;
     background-image: radial-gradient(hsla(150, 100%, 25%, 0.15) 2%, transparent 70%);
-}
+} */
 
 ::-webkit-scrollbar {
     width: 12px;
