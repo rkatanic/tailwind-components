@@ -1,7 +1,7 @@
 import { FiTrash2, FiEdit2, FiArrowRight, FiArrowLeft } from "react-icons/fi";
 
 const Table = (): JSX.Element => (
-  <table className="w-full overflow-hidden rounded-md shadow-sm">
+  <table className="w-full overflow-hidden rounded shadow-sm">
     <tbody className="text-left text-sm border dark:border-zinc-600">
       <th className="p-4 bg-zinc-50 dark:bg-zinc-700 text-zinc-900 dark:text-zinc-300 font-semibold">
         Name
@@ -22,7 +22,7 @@ const Table = (): JSX.Element => (
         Actions
       </th>
 
-      <tr className="bg-white dark:bg-zinc-900 border-t dark:border-zinc-600">
+      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
         <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
           Salary
         </td>
@@ -33,7 +33,7 @@ const Table = (): JSX.Element => (
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-emerald-400 bg-emerald-50 text-emerald-500 dark:border-emerald-600 dark:bg-emerald-500/10 dark:text-emerald-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-emerald-400 bg-emerald-50 text-emerald-500 dark:border-emerald-600 dark:bg-emerald-500/10 dark:text-emerald-400">
             Income
           </span>
         </td>
@@ -46,7 +46,7 @@ const Table = (): JSX.Element => (
         <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-indigo-500 cursor-pointer"
+            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
@@ -55,7 +55,7 @@ const Table = (): JSX.Element => (
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-zinc-900 border-t dark:border-zinc-600">
+      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
         <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
           Phone bill
         </td>
@@ -66,7 +66,7 @@ const Table = (): JSX.Element => (
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
             Expense
           </span>
         </td>
@@ -79,7 +79,7 @@ const Table = (): JSX.Element => (
         <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-indigo-500 cursor-pointer"
+            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
@@ -88,7 +88,7 @@ const Table = (): JSX.Element => (
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-zinc-900 border-t dark:border-zinc-600">
+      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
         <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
           Electricity
         </td>
@@ -99,7 +99,7 @@ const Table = (): JSX.Element => (
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
             Expense
           </span>
         </td>
@@ -112,7 +112,7 @@ const Table = (): JSX.Element => (
         <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-indigo-500 cursor-pointer"
+            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
@@ -121,7 +121,7 @@ const Table = (): JSX.Element => (
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-zinc-900 border-t dark:border-zinc-600">
+      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
         <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
           Groceries
         </td>
@@ -132,12 +132,12 @@ const Table = (): JSX.Element => (
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
             Expense
           </span>
         </td>
         <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
-          <div className="w-2.5 h-2.5 rounded-full bg-sky-400"></div> Food &
+          <div className="w-2.5 h-2.5 rounded-full bg-cyan-400"></div> Food &
           Drinks
         </td>
         <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 lg:table-cell">
@@ -146,7 +146,7 @@ const Table = (): JSX.Element => (
         <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-indigo-500 cursor-pointer"
+            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
@@ -155,7 +155,7 @@ const Table = (): JSX.Element => (
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-zinc-900 border-t dark:border-zinc-600">
+      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
         <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
           Gas
         </td>
@@ -166,7 +166,7 @@ const Table = (): JSX.Element => (
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-2 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
             Expense
           </span>
         </td>
@@ -179,7 +179,7 @@ const Table = (): JSX.Element => (
         <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-indigo-500 cursor-pointer"
+            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"

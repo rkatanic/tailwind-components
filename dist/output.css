@@ -571,12 +571,12 @@ video {
   text-decoration-line: underline;
 }
 
-.dark .dark\:bg-zinc-900 {
+.dark .dark\:bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-zinc-900 {
+.dark .dark\:bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }

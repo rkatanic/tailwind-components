@@ -12,9 +12,9 @@ import StatsPreview from "./components/stats/StatsPreview";
 import BadgesPreview from "./components/badges/BadgesPreview";
 
 const App = () => (
-  <div className={`App h-full relative dark:bg-zinc-900 py-8 bg-white`}>
+  <div className={`App h-full relative dark:bg-black py-8 bg-white`}>
     <Header />
-    <div className="flex gap-8 w-full max-w-7xl m-auto">
+    <div className="flex items-baseline gap-8 w-full max-w-7xl m-auto">
       <Router>
         <Navigation />
 

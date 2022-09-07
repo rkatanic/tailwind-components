@@ -1,16 +1,16 @@
 const Input = (): JSX.Element => (
   <div>
     <label
-      className="block mb-1 text-sm font-semibold text-zinc-600 dark:text-zinc-400"
+      className="block mb-1.5 text-xs font-medium text-zinc-500 dark:text-zinc-300"
       htmlFor="input"
     >
-      Label
+      Name<span className="text-red-600 dark:text-red-400">*</span>
     </label>
     <input
+      required
       type="text"
       name="input"
-      className="shadow-sm w-72 text-sm text-zinc-800 px-3 py-1.5 rounded-md border bg-white border-zinc-300 placeholder:text-zinc-400 focus:outline-indigo-500 focus:ring-indigo-500 focus:outline-0 dark:focus:border-indigo-500 dark:border-zinc-600 dark:text-zinc-100 dark:bg-zinc-800"
-      placeholder="Placeholder"
+      className="w-72 text-sm text-gray-900 px-3 py-2 rounded-md border border-gray-200 placeholder:text-zinc-400 focus:outline-cyan-500 focus:ring-cyan-500 focus:outline-0 dark:text-zinc-50 dark:border-gray-700 dark:bg-black"
     />
   </div>
 );

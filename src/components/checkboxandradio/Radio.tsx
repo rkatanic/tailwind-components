@@ -6,11 +6,11 @@ const Radio = (): JSX.Element => (
         id="radio-option-one"
         name="radio-options"
         type="radio"
-        className="cursor-pointer focus:ring-0 h-4 w-4 text-indigo-600 border-zinc-300  dark:bg-zinc-700 dark:checked:bg-indigo-600 dark:border-zinc-500"
+        className="cursor-pointer focus:ring-0 h-4 w-4 text-cyan-500 border-gray-200  dark:bg-black dark:checked:bg-cyan-500 dark:border-gray-600"
       />
       <label
         htmlFor="radio-option-one"
-        className=" cursor-pointer ml-2 block text-sm text-zinc-800 dark:text-zinc-100"
+        className=" cursor-pointer ml-2 block text-sm text-gray-800 dark:text-gray-100"
       >
         Checked
       </label>
@@ -21,11 +21,11 @@ const Radio = (): JSX.Element => (
         id="radio-option-two"
         name="radio-options"
         type="radio"
-        className="cursor-pointer focus:ring-0 h-4 w-4 text-indigo-600 border-zinc-300  dark:bg-zinc-700 dark:checked:bg-indigo-600 dark:border-zinc-500"
+        className="cursor-pointer focus:ring-0 h-4 w-4 text-cyan-500 border-gray-200  dark:bg-black dark:checked:bg-cyan-500 dark:border-gray-600"
       />
       <label
         htmlFor="radio-option-two"
-        className="cursor-pointer ml-2 block text-sm text-zinc-800 dark:text-zinc-100"
+        className="cursor-pointer ml-2 block text-sm text-gray-800 dark:text-gray-100"
       >
         Active
       </label>
@@ -36,11 +36,11 @@ const Radio = (): JSX.Element => (
         id="radio-option-three"
         name="radio-options"
         type="radio"
-        className="cursor-pointer focus:ring-0 h-4 w-4 text-indigo-600 border-zinc-300 disabled:bg-zinc-100 disabled:cursor-not-allowed  dark:bg-zinc-700 dark:checked:bg-indigo-600 dark:border-zinc-500"
+        className="cursor-pointer focus:ring-0 h-4 w-4 text-cyan-500 border-gray-200 disabled:bg-gray-100 disabled:cursor-not-allowed  dark:bg-gray-800 dark:checked:bg-cyan-600 dark:border-gray-600"
       />
       <label
         htmlFor="radio-option-three"
-        className="cursor-pointer ml-2 block text-sm text-zinc-800 dark:text-zinc-400"
+        className="cursor-pointer ml-2 block text-sm text-gray-800 dark:text-gray-400"
       >
         Disabled
       </label>

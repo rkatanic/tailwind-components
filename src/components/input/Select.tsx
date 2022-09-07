@@ -1,15 +1,15 @@
 const Select = (): JSX.Element => (
   <div>
     <label
-      htmlFor="select"
-      className="block mb-1 text-sm font-semibold text-zinc-600 dark:text-zinc-400"
+      className="block mb-1.5 text-xs font-medium text-zinc-500 dark:text-zinc-300"
+      htmlFor="input"
     >
       Label
     </label>
     <select
       id="select"
       name="select"
-      className="w-72 text-zinc-800 shadow-sm rounded-md border border-zinc-300 px-3 pr-9 py-1.5 text-sm focus:ring-indigo-500 focus:border-indigo-500 focus:outline-0 dark:bg-zinc-800 dark:text-zinc-100 dark:border-zinc-600"
+      className="w-72 text-sm text-gray-900 px-3 py-2 rounded-md border border-gray-200 placeholder:text-zinc-400 focus:outline-cyan-500 focus:ring-cyan-500 focus:outline-0 dark:text-zinc-50 dark:border-gray-700 dark:bg-black"
     >
       <option>Select option one</option>
       <option>Select option two</option>

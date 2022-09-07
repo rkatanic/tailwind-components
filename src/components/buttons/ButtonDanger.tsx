@@ -3,19 +3,21 @@ const ButtonPrimary = () => {
     <div className="flex items-end gap-4">
       <button
         type="button"
-        className="shadow-sm font-semibold text-sm border py-1.5 px-4 rounded-md dark:shadow-md bg-red-600 border-red-700 text-white hover:bg-red-500 hover:border-red-600 dark:bg-red-600 dark:hover:bg-red-500 dark:hover:border-red-400 dark:border-red-500"
+        className="shadow-sm font-medium text-sm py-2 px-6 rounded-md dark:shadow-md border bg-white border-red-400 hover:bg-red-500 hover:text-white text-red-600 dark:bg-black dark:text-red-400 dark:hover:bg-red-500 dark:hover:text-white dark:hover:border-red-500"
       >
         Button
       </button>
+
       <button
         type="button"
-        className="shadow-sm font-semibold text-sm border py-2 px-6 rounded-md dark:shadow-md bg-red-600 border-red-700 text-white hover:bg-red-500 hover:border-red-600 dark:bg-red-600 dark:hover:bg-red-500 dark:hover:border-red-400 dark:border-red-500"
+        className="shadow-sm font-medium text-md py-2 px-6 rounded-md dark:shadow-md border bg-white border-red-400 hover:bg-red-500 hover:text-white text-red-600 dark:bg-black dark:text-red-400 dark:hover:bg-red-500 dark:hover:text-white dark:hover:border-red-500"
       >
         Button
       </button>
+
       <button
         type="button"
-        className="shadow-sm font-semibold text-md border py-2 px-8 rounded-md dark:shadow-md bg-red-600 border-red-700 text-white hover:bg-red-500 hover:border-red-600 dark:bg-red-600 dark:hover:bg-red-500 dark:hover:border-red-400 dark:border-red-500"
+        className="shadow-sm font-medium text-md py-2.5 px-6 rounded-md dark:shadow-md border bg-white border-red-400 hover:bg-red-500 hover:text-white text-red-600 dark:bg-black dark:text-red-400 dark:hover:bg-red-500 dark:hover:text-white dark:hover:border-red-500"
       >
         Button
       </button>
