@@ -15,7 +15,7 @@ const Code = ({ component }: Props): JSX.Element => {
     printFunctionName: false,
   });
   return (
-    <div className="border dark:border-zinc-700 rounded">
+    <div className="border dark:border-gray-700 rounded">
       <SyntaxHighlighter
         showLineNumbers
         language="jsx"

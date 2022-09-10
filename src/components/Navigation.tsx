@@ -30,7 +30,7 @@ const Navigation = (): JSX.Element => {
             `${
               isActive
                 ? "active bg-cyan-500 text-white"
-                : "text-gray-700 dark:text-zinc-200"
+                : "text-gray-700 dark:text-gray-200"
             } flex items-center justify-between relative py-4 px-4 text-sm font-medium last-of-type:border-none border-b border-gray-100 dark:border-gray-800`
           }
         >

@@ -71,15 +71,15 @@ const Badges = (): JSX.Element => (
     </div>
 
     <div className="flex gap-8 items-center">
-      <span className="rounded-full text-xs font-medium px-3 py-0.5 bg-zinc-50 text-zinc-500 dark:bg-zinc-500/20 dark:text-zinc-400">
+      <span className="rounded-full text-xs font-medium px-3 py-0.5 bg-gray-50 text-gray-500 dark:bg-gray-500/20 dark:text-gray-300">
         Badge
       </span>
 
-      <span className="rounded-full text-sm font-medium px-3 py-1 bg-zinc-50 text-zinc-500 dark:bg-zinc-500/20 dark:text-zinc-400">
+      <span className="rounded-full text-sm font-medium px-3 py-1 bg-gray-50 text-gray-500 dark:bg-gray-500/20 dark:text-gray-300">
         Badge
       </span>
 
-      <span className="rounded-full text-md font-medium px-3 py-1 bg-zinc-50 text-zinc-500 dark:bg-zinc-500/20 dark:text-zinc-400">
+      <span className="rounded-full text-md font-medium px-3 py-1 bg-gray-50 text-gray-500 dark:bg-gray-500/20 dark:text-gray-300">
         Badge
       </span>
     </div>

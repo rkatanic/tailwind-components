@@ -25,9 +25,9 @@ const Sidenav = (): JSX.Element => {
   };
 
   return (
-    <div className="flex-col flex bg-zinc-50 dark:bg-zinc-800 dark:bg-opacity-40 sm:flex-row h-full">
+    <div className="flex-col flex bg-gray-50 dark:bg-gray-800 dark:bg-opacity-40 sm:flex-row h-full">
       {(showMenu || showFiles) && (
-        <div className="lg:hidden fixed inset-0 w-full h-full bg-zinc-800/70 z-100"></div>
+        <div className="lg:hidden fixed inset-0 w-full h-full bg-gray-800/70 z-100"></div>
       )}
       <div className="w-full sm:max-w-[5rem] bg-gradient-to-b from-cyan-600 to-cyan-600 flex flex-col items-center gap-6 sm:z-10">
         <div className="px-8 justify-between flex items-center sm:justify-center sm:px-0 h-16 bg-cyan-700 w-full z-10">
@@ -85,66 +85,66 @@ const Sidenav = (): JSX.Element => {
       <div
         className={`${
           showFiles ? "left-0 sm:ml-20" : ""
-        } z-10 h-full transition-[left] duration-300 absolute -left-full lg:relative lg:left-0 lg:ml-0 shadow-sm border-r bg-white dark:bg-zinc-700 dark:border-zinc-600 w-full max-w-sm  pb-32`}
+        } z-10 h-full transition-[left] duration-300 absolute -left-full lg:relative lg:left-0 lg:ml-0 shadow-sm border-r bg-white dark:bg-gray-700 dark:border-gray-600 w-full max-w-sm  pb-32`}
       >
-        <div className="border-b h-16 flex items-center justify-between px-3 text-lg font-semibold dark:text-zinc-200 dark:border-zinc-600">
+        <div className="border-b h-16 flex items-center justify-between px-3 text-lg font-semibold dark:text-gray-200 dark:border-gray-600">
           <div>
             Notes{" "}
-            <span className="text-sm text-zinc-400 font-normal ml-1">
+            <span className="text-sm text-gray-400 font-normal ml-1">
               4 files
             </span>
           </div>
           <FiX onClick={handleShowFilesToggle} className="lg:hidden" />
         </div>
         <div className="w-full max-w-sm">
-          <div className="border-b p-4 bg-zinc-50 dark:bg-zinc-600/70 dark:border-zinc-600">
-            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 bg-gray-50 dark:bg-gray-600/70 dark:border-gray-600">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-gray-200">
               Note one
               <FiTrash2
                 size="1.125rem"
-                className="stroke-zinc-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-zinc-400 dark:hover:stroke-red-600"
+                className="stroke-gray-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-gray-400 dark:hover:stroke-red-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-400 dark:text-gray-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b p-4 dark:border-zinc-600">
-            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 dark:border-gray-600">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-gray-200">
               Note two
               <FiTrash2
                 size="1.125rem"
-                className="stroke-zinc-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-zinc-400 dark:hover:stroke-red-600"
+                className="stroke-gray-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-gray-400 dark:hover:stroke-red-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-400 dark:text-gray-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b p-4 dark:border-zinc-600">
-            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 dark:border-gray-600">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-gray-200">
               Note three
               <FiTrash2
                 size="1.125rem"
-                className="stroke-zinc-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-zinc-400 dark:hover:stroke-red-600"
+                className="stroke-gray-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-gray-400 dark:hover:stroke-red-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-400 dark:text-gray-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
           </div>
-          <div className="border-b p-4 dark:border-zinc-600">
-            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-zinc-200">
+          <div className="border-b p-4 dark:border-gray-600">
+            <h3 className="mb-1 font-medium flex items-center gap-2 justify-between dark:text-gray-200">
               Note four
               <FiTrash2
                 size="1.125rem"
-                className="stroke-zinc-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-zinc-400 dark:hover:stroke-red-600"
+                className="stroke-gray-300 hover:stroke-red-500 hover:cursor-pointer dark:stroke-gray-400 dark:hover:stroke-red-600"
               />
             </h3>
-            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-zinc-400 dark:text-zinc-400">
+            <p className="overflow-hidden text-ellipsis max-h-16 text-sm text-gray-400 dark:text-gray-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni.
             </p>
@@ -152,21 +152,21 @@ const Sidenav = (): JSX.Element => {
         </div>
       </div>
       <div className="w-full">
-        <div className="bg-white w-full border-b h-16 flex items-center justify-center text-lg font-semibold dark:text-zinc-200 dark:border-zinc-600 dark:bg-zinc-700">
+        <div className="bg-white w-full border-b h-16 flex items-center justify-center text-lg font-semibold dark:text-gray-200 dark:border-gray-600 dark:bg-gray-700">
           <div className="flex items-center justify-between w-full max-w-5xl px-8 ">
             <div>Note one</div>
-            <FiSave className="dark:stroke-zinc-400 cursor-pointer hover:stroke-cyan-500 dark:hover:stroke-cyan-400" />
+            <FiSave className="dark:stroke-gray-400 cursor-pointer hover:stroke-cyan-500 dark:hover:stroke-cyan-400" />
           </div>
         </div>
 
         <div className="h-full w-full max-w-5xl m-auto mt-8 px-8">
-          <div className="shadow-lg bg-white h-full p-8 rounded dark:bg-zinc-700 dark:border-zinc-600">
-            <h2 className="font-bold text-2xl mb-2 dark:text-zinc-100">
-              <span className="text-zinc-300 dark:text-zinc-400">##</span> Note
+          <div className="shadow-lg bg-white h-full p-8 rounded dark:bg-gray-700 dark:border-gray-600">
+            <h2 className="font-bold text-2xl mb-2 dark:text-gray-100">
+              <span className="text-gray-300 dark:text-gray-400">##</span> Note
               note
             </h2>
-            <hr className="dark:border-zinc-600" />
-            <p className="mt-4 dark:text-zinc-200">
+            <hr className="dark:border-gray-600" />
+            <p className="mt-4 dark:text-gray-200">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestias quas, neque dolore commodi perspiciatis magni. Lorem
               ipsum dolor sit, amet consectetur adipisicing elit. Molestias

@@ -10,34 +10,10 @@
     }
 }
 
-
-
 html,
 body {
-    height: 100vh;
+    height: 100%;
 }
-
-/* .App::before {
-    position: fixed;
-    content: "";
-    transform: rotate(45deg);
-    width: 2000px;
-    height: 700px;
-    top: 25rem;
-    left: -10rem;
-    background-image: radial-gradient(hsla(180, 100%, 25%, 0.15) 2%, transparent 70%);
-}
-
-.App::after {
-    position: fixed;
-    content: "";
-    transform: rotate(45deg);
-    width: 700px;
-    height: 1800px;
-    top: -45rem;
-    right: -10rem;
-    background-image: radial-gradient(hsla(150, 100%, 25%, 0.15) 2%, transparent 70%);
-} */
 
 ::-webkit-scrollbar {
     width: 12px;

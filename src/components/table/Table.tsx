@@ -2,33 +2,33 @@ import { FiTrash2, FiEdit2, FiArrowRight, FiArrowLeft } from "react-icons/fi";
 
 const Table = (): JSX.Element => (
   <table className="w-full overflow-hidden rounded shadow-sm">
-    <tbody className="text-left text-sm border dark:border-zinc-600">
-      <th className="p-4 bg-zinc-50 dark:bg-zinc-700 text-zinc-900 dark:text-zinc-300 font-semibold">
+    <tbody className="text-left text-sm border dark:border-gray-600">
+      <th className="p-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-300 font-semibold">
         Name
       </th>
-      <th className="p-4 bg-zinc-50 dark:bg-zinc-700 text-zinc-900 dark:text-zinc-300 font-semibold">
+      <th className="p-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-300 font-semibold">
         Amount
       </th>
-      <th className="hidden p-4 bg-zinc-50 dark:bg-zinc-700 text-zinc-900 dark:text-zinc-300 font-semibold md:table-cell">
+      <th className="hidden p-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-300 font-semibold md:table-cell">
         Type
       </th>
-      <th className="hidden p-4 bg-zinc-50 dark:bg-zinc-700 text-zinc-900 dark:text-zinc-300 font-semibold sm:table-cell">
+      <th className="hidden p-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-300 font-semibold sm:table-cell">
         Category
       </th>
-      <th className="hidden p-4 bg-zinc-50 dark:bg-zinc-700 text-zinc-900 dark:text-zinc-300 font-semibold lg:table-cell">
+      <th className="hidden p-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-300 font-semibold lg:table-cell">
         Date created
       </th>
-      <th className="text-right p-4 bg-zinc-50 dark:bg-zinc-700 text-zinc-900 dark:text-zinc-300 font-semibold">
+      <th className="text-right p-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-300 font-semibold">
         Actions
       </th>
 
-      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
-        <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+      <tr className="bg-white dark:bg-black border-t dark:border-gray-600">
+        <td className="p-4 font-semibold text-gray-900 dark:text-gray-400">
           Salary
         </td>
-        <td className="whitespace-nowrap p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+        <td className="whitespace-nowrap p-4 font-semibold text-gray-900 dark:text-gray-400">
           1.000{" "}
-          <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
+          <span className="text-xs text-gray-400 dark:text-gray-500 font-normal">
             BAM
           </span>
         </td>
@@ -37,153 +37,153 @@ const Table = (): JSX.Element => (
             Income
           </span>
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 sm:flex sm:items-center sm:gap-2">
           <div className="w-2.5 h-2.5 rounded-full bg-emerald-500"></div> Income
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 lg:table-cell">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 lg:table-cell">
           1 August, 2022
         </td>
-        <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
+        <td className="p-4 text-gray-900 dark:text-gray-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-red-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-red-500 cursor-pointer"
           />
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
-        <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+      <tr className="bg-white dark:bg-black border-t dark:border-gray-600">
+        <td className="p-4 font-semibold text-gray-900 dark:text-gray-400">
           Phone bill
         </td>
-        <td className="whitespace-nowrap p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+        <td className="whitespace-nowrap p-4 font-semibold text-gray-900 dark:text-gray-400">
           99{" "}
-          <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
+          <span className="text-xs text-gray-400 dark:text-gray-500 font-normal">
             BAM
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-gray-400 bg-gray-50 text-gray-500 dark:border-gray-600 dark:bg-gray-500/10 dark:text-gray-400">
             Expense
           </span>
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 sm:flex sm:items-center sm:gap-2">
           <div className="w-2.5 h-2.5 rounded-full bg-red-500"></div> Telephone
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 lg:table-cell">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 lg:table-cell">
           31 July, 2022
         </td>
-        <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
+        <td className="p-4 text-gray-900 dark:text-gray-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-red-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-red-500 cursor-pointer"
           />
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
-        <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+      <tr className="bg-white dark:bg-black border-t dark:border-gray-600">
+        <td className="p-4 font-semibold text-gray-900 dark:text-gray-400">
           Electricity
         </td>
-        <td className="whitespace-nowrap p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+        <td className="whitespace-nowrap p-4 font-semibold text-gray-900 dark:text-gray-400">
           175.24{" "}
-          <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
+          <span className="text-xs text-gray-400 dark:text-gray-500 font-normal">
             BAM
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-gray-400 bg-gray-50 text-gray-500 dark:border-gray-600 dark:bg-gray-500/10 dark:text-gray-400">
             Expense
           </span>
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 sm:flex sm:items-center sm:gap-2">
           <div className="w-2.5 h-2.5 rounded-full bg-amber-500"></div> Housing
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 lg:table-cell">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 lg:table-cell">
           30 July, 2022
         </td>
-        <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
+        <td className="p-4 text-gray-900 dark:text-gray-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-red-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-red-500 cursor-pointer"
           />
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
-        <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+      <tr className="bg-white dark:bg-black border-t dark:border-gray-600">
+        <td className="p-4 font-semibold text-gray-900 dark:text-gray-400">
           Groceries
         </td>
-        <td className="whitespace-nowrap p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+        <td className="whitespace-nowrap p-4 font-semibold text-gray-900 dark:text-gray-400">
           392.37{" "}
-          <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
+          <span className="text-xs text-gray-400 dark:text-gray-500 font-normal">
             BAM
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-gray-400 bg-gray-50 text-gray-500 dark:border-gray-600 dark:bg-gray-500/10 dark:text-gray-400">
             Expense
           </span>
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 sm:flex sm:items-center sm:gap-2">
           <div className="w-2.5 h-2.5 rounded-full bg-cyan-400"></div> Food &
           Drinks
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 lg:table-cell">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 lg:table-cell">
           25 July, 2022
         </td>
-        <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
+        <td className="p-4 text-gray-900 dark:text-gray-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-red-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-red-500 cursor-pointer"
           />
         </td>
       </tr>
 
-      <tr className="bg-white dark:bg-black border-t dark:border-zinc-600">
-        <td className="p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+      <tr className="bg-white dark:bg-black border-t dark:border-gray-600">
+        <td className="p-4 font-semibold text-gray-900 dark:text-gray-400">
           Gas
         </td>
-        <td className="whitespace-nowrap p-4 font-semibold text-zinc-900 dark:text-zinc-400">
+        <td className="whitespace-nowrap p-4 font-semibold text-gray-900 dark:text-gray-400">
           200{" "}
-          <span className="text-xs text-zinc-400 dark:text-zinc-500 font-normal">
+          <span className="text-xs text-gray-400 dark:text-gray-500 font-normal">
             BAM
           </span>
         </td>
         <td className="hidden p-4 font-semibold md:table-cell">
-          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-zinc-400 bg-zinc-50 text-zinc-500 dark:border-zinc-600 dark:bg-zinc-500/10 dark:text-zinc-400">
+          <span className="rounded-full border text-xs font-medium px-3 py-0.5 border-gray-400 bg-gray-50 text-gray-500 dark:border-gray-600 dark:bg-gray-500/10 dark:text-gray-400">
             Expense
           </span>
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 sm:flex sm:items-center sm:gap-2">
-          <div className="w-2.5 h-2.5 rounded-full bg-zinc-400"></div> Other
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 sm:flex sm:items-center sm:gap-2">
+          <div className="w-2.5 h-2.5 rounded-full bg-gray-400"></div> Other
         </td>
-        <td className="hidden p-4 text-zinc-500 dark:text-zinc-400 lg:table-cell">
+        <td className="hidden p-4 text-gray-500 dark:text-gray-400 lg:table-cell">
           14 July, 2022
         </td>
-        <td className="p-4 text-zinc-900 dark:text-zinc-400 flex justify-end gap-4">
+        <td className="p-4 text-gray-900 dark:text-gray-400 flex justify-end gap-4">
           <FiEdit2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-cyan-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-cyan-500 cursor-pointer"
           />
           <FiTrash2
             size="1rem"
-            className="stroke-zinc-400 hover:stroke-red-500 cursor-pointer"
+            className="stroke-gray-400 hover:stroke-red-500 cursor-pointer"
           />
         </td>
       </tr>
